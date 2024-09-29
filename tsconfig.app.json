@@ -21,9 +21,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": [
-      "./global"
-    ]
   },
   "include": [
     "src"
