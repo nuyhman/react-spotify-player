@@ -1,10 +1,35 @@
 {
-  "name": "react-spotify-player",
-  "author": "nyuhman",
-  "version": "0.0.0",
+  "name": "@nuyhman/react-spotify-player",
+  "author": {
+    "name": "nuyhman",
+    "email": "nhpunch@gmail.com"
+  },
+  "description": "A Spotify player component for React",
+  "keywords": [
+    "react",
+    "spotify",
+    "player",
+    "embed",
+    "iFrame"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "private": false,
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prepare": "rm -rf dist && tsc && vite build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -22,8 +47,10 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "vite-plugin-dts": "^4.2.2"
   }
 }
