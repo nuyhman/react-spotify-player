@@ -4,7 +4,12 @@
     "name": "nuyhman",
     "email": "nhpunch@gmail.com"
   },
-  "description": "A Spotify player component for React",
+  "description": "Spotify player embed component for React",
+  "homepage": "https://github.com/nuyhman/react-spotify-player#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuyhman/react-spotify-player.git"
+  },
   "keywords": [
     "react",
     "spotify",
@@ -25,7 +30,7 @@
       "require": "./dist/index.umd.js"
     }
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
