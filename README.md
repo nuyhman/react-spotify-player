@@ -4,7 +4,7 @@ A React component for embedding Spotify content using the Spotify oEmbed API.
 
 [Live Demo](https://react-spotify-player-demo.vercel.app/)
 
-![Demo Screenshot](/public/demo.png)
+![Demo Screenshot](https://github.com/user-attachments/assets/b138b740-02d3-44fb-b865-cd53e0cad98e)
 
 ## Features
 
