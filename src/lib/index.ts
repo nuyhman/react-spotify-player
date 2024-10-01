@@ -1,1 +1,1 @@
-export * from './SpotifyPlayer';
+export { default } from './SpotifyPlayer';

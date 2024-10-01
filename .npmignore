@@ -1,0 +1,12 @@
+index.html                        
+/src    
+tsconfig.*  
+vite.config.ts
+.eslintrc.cjs
+yarn.lock
+.prettierrc
+.github
+.vscode
+node_modules
+.gitignore
+*.tgz
