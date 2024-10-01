@@ -23,6 +23,7 @@ export default defineConfig({
         }
         return `${name}.${format}.js`;
       },
+      formats: ['es', 'cjs'],
     },
     rollupOptions: {
       external: ['react'],
